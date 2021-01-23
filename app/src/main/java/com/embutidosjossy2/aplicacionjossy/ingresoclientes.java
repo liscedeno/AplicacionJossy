@@ -120,7 +120,7 @@ public class ingresoclientes extends AppCompatActivity {
             public void onSuccess(int statusCode, Header[] headers, byte[] responseBody) {//evalua la pagina si e que cumple on la condicion
                 if (statusCode == 200){
                     cargarSpinner (new String(responseBody));
-                    
+
                 }
 
             }
